@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */; };
+		6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDB31FCD223D002E062C /* Main.storyboard */; };
+		6A7FDDC21FCD29CE002E062C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDBD1FCD29CE002E062C /* MBProgressHUD.bundle */; };
+		6A7FDDC31FCD29CE002E062C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FDDBF1FCD29CE002E062C /* MBProgressHUD.m */; };
+		6A7FDDC41FCD29CE002E062C /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FDDC11FCD29CE002E062C /* MBProgressHUD+NJ.m */; };
+		6A7FDDCB1FCD2A47002E062C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FDDC81FCD2A47002E062C /* LoginViewController.m */; };
+		6A7FDDCC1FCD2A47002E062C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FDDCA1FCD2A47002E062C /* RegisterViewController.m */; };
+		6A7FDE001FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */; };
+		6A7FDE011FCD2D49002E062C /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF01FCD2D49002E062C /* 222.png */; };
+		6A7FDE021FCD2D49002E062C /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF11FCD2D49002E062C /* 1111.png */; };
+		6A7FDE031FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF21FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png */; };
+		6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF31FCD2D49002E062C /* 个人-头像.png */; };
+		6A7FDE051FCD2D49002E062C /* 人头.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF41FCD2D49002E062C /* 人头.png */; };
+		6A7FDE061FCD2D49002E062C /* 优惠券.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF51FCD2D49002E062C /* 优惠券.png */; };
+		6A7FDE071FCD2D49002E062C /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF61FCD2D49002E062C /* 关于我们.png */; };
+		6A7FDE081FCD2D49002E062C /* 加载.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF71FCD2D49002E062C /* 加载.png */; };
+		6A7FDE091FCD2D49002E062C /* 右.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF81FCD2D49002E062C /* 右.png */; };
+		6A7FDE0A1FCD2D49002E062C /* 好友.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDF91FCD2D49002E062C /* 好友.png */; };
+		6A7FDE0B1FCD2D49002E062C /* 意见.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFA1FCD2D49002E062C /* 意见.png */; };
+		6A7FDE0C1FCD2D49002E062C /* 旅行.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFB1FCD2D49002E062C /* 旅行.png */; };
+		6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFC1FCD2D49002E062C /* 更新.png */; };
+		6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFD1FCD2D49002E062C /* 消息.png */; };
+		6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFE1FCD2D49002E062C /* 线条5.png */; };
+		6A7FDE101FCD2D49002E062C /* 菱形2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7FDDFF1FCD2D49002E062C /* 菱形2.png */; };
+		91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682BF01FC5AEAD0007070D /* AppDelegate.m */; };
+		91682BF91FC5AEAD0007070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91682BF81FC5AEAD0007070D /* Assets.xcassets */; };
+		91682BFF1FC5AEAD0007070D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682BFE1FC5AEAD0007070D /* main.m */; };
+		91682C091FC5AEAE0007070D /* BookingAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682C081FC5AEAE0007070D /* BookingAppDemoTests.m */; };
+		91682C141FC5AEAE0007070D /* BookingAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91682C131FC5AEAE0007070D /* BookingAppDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91682C051FC5AEAE0007070D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91682BE41FC5AEAD0007070D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91682BEB1FC5AEAD0007070D;
+			remoteInfo = BookingAppDemo;
+		};
+		91682C101FC5AEAE0007070D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91682BE41FC5AEAD0007070D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91682BEB1FC5AEAD0007070D;
+			remoteInfo = BookingAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A7FDDB31FCD223D002E062C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A7FDDBD1FCD29CE002E062C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		6A7FDDBE1FCD29CE002E062C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6A7FDDBF1FCD29CE002E062C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6A7FDDC01FCD29CE002E062C /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		6A7FDDC11FCD29CE002E062C /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		6A7FDDC71FCD2A47002E062C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6A7FDDC81FCD2A47002E062C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6A7FDDC91FCD2A47002E062C /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		6A7FDDCA1FCD2A47002E062C /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3E01D292-11AD-44D7-B6ED-968E0AB09016.png"; sourceTree = "<group>"; };
+		6A7FDDF01FCD2D49002E062C /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
+		6A7FDDF11FCD2D49002E062C /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1111.png; sourceTree = "<group>"; };
+		6A7FDDF21FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C8F20491-CA70-4808-AD8E-F8DAF2F25733.png"; sourceTree = "<group>"; };
+		6A7FDDF31FCD2D49002E062C /* 个人-头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人-头像.png"; sourceTree = "<group>"; };
+		6A7FDDF41FCD2D49002E062C /* 人头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人头.png"; sourceTree = "<group>"; };
+		6A7FDDF51FCD2D49002E062C /* 优惠券.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "优惠券.png"; sourceTree = "<group>"; };
+		6A7FDDF61FCD2D49002E062C /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		6A7FDDF71FCD2D49002E062C /* 加载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加载.png"; sourceTree = "<group>"; };
+		6A7FDDF81FCD2D49002E062C /* 右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右.png"; sourceTree = "<group>"; };
+		6A7FDDF91FCD2D49002E062C /* 好友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "好友.png"; sourceTree = "<group>"; };
+		6A7FDDFA1FCD2D49002E062C /* 意见.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "意见.png"; sourceTree = "<group>"; };
+		6A7FDDFB1FCD2D49002E062C /* 旅行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旅行.png"; sourceTree = "<group>"; };
+		6A7FDDFC1FCD2D49002E062C /* 更新.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更新.png"; sourceTree = "<group>"; };
+		6A7FDDFD1FCD2D49002E062C /* 消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息.png"; sourceTree = "<group>"; };
+		6A7FDDFE1FCD2D49002E062C /* 线条5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线条5.png"; sourceTree = "<group>"; };
+		6A7FDDFF1FCD2D49002E062C /* 菱形2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菱形2.png"; sourceTree = "<group>"; };
+		91682BEC1FC5AEAD0007070D /* BookingAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91682BEF1FC5AEAD0007070D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91682BF01FC5AEAD0007070D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91682BF81FC5AEAD0007070D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91682BFD1FC5AEAD0007070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91682BFE1FC5AEAD0007070D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91682C041FC5AEAE0007070D /* BookingAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91682C081FC5AEAE0007070D /* BookingAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingAppDemoTests.m; sourceTree = "<group>"; };
+		91682C0A1FC5AEAE0007070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91682C0F1FC5AEAE0007070D /* BookingAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91682C131FC5AEAE0007070D /* BookingAppDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingAppDemoUITests.m; sourceTree = "<group>"; };
+		91682C151FC5AEAE0007070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91682BE91FC5AEAD0007070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C011FC5AEAE0007070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C0C1FC5AEAE0007070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7FDDBC1FCD29A7002E062C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FDDBD1FCD29CE002E062C /* MBProgressHUD.bundle */,
+				6A7FDDBE1FCD29CE002E062C /* MBProgressHUD.h */,
+				6A7FDDBF1FCD29CE002E062C /* MBProgressHUD.m */,
+				6A7FDDC01FCD29CE002E062C /* MBProgressHUD+NJ.h */,
+				6A7FDDC11FCD29CE002E062C /* MBProgressHUD+NJ.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6A7FDDC61FCD2A12002E062C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FDDC71FCD2A47002E062C /* LoginViewController.h */,
+				6A7FDDC81FCD2A47002E062C /* LoginViewController.m */,
+				6A7FDDC91FCD2A47002E062C /* RegisterViewController.h */,
+				6A7FDDCA1FCD2A47002E062C /* RegisterViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		91682BE31FC5AEAD0007070D = {
+			isa = PBXGroup;
+			children = (
+				91682BEE1FC5AEAD0007070D /* BookingAppDemo */,
+				91682C071FC5AEAE0007070D /* BookingAppDemoTests */,
+				91682C121FC5AEAE0007070D /* BookingAppDemoUITests */,
+				91682BED1FC5AEAD0007070D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91682BED1FC5AEAD0007070D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91682BEC1FC5AEAD0007070D /* BookingAppDemo.app */,
+				91682C041FC5AEAE0007070D /* BookingAppDemoTests.xctest */,
+				91682C0F1FC5AEAE0007070D /* BookingAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91682BEE1FC5AEAD0007070D /* BookingAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FDDEF1FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png */,
+				6A7FDDF01FCD2D49002E062C /* 222.png */,
+				6A7FDDF11FCD2D49002E062C /* 1111.png */,
+				6A7FDDF21FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png */,
+				6A7FDDF31FCD2D49002E062C /* 个人-头像.png */,
+				6A7FDDF41FCD2D49002E062C /* 人头.png */,
+				6A7FDDF51FCD2D49002E062C /* 优惠券.png */,
+				6A7FDDF61FCD2D49002E062C /* 关于我们.png */,
+				6A7FDDF71FCD2D49002E062C /* 加载.png */,
+				6A7FDDF81FCD2D49002E062C /* 右.png */,
+				6A7FDDF91FCD2D49002E062C /* 好友.png */,
+				6A7FDDFA1FCD2D49002E062C /* 意见.png */,
+				6A7FDDFB1FCD2D49002E062C /* 旅行.png */,
+				6A7FDDFC1FCD2D49002E062C /* 更新.png */,
+				6A7FDDFD1FCD2D49002E062C /* 消息.png */,
+				6A7FDDFE1FCD2D49002E062C /* 线条5.png */,
+				6A7FDDFF1FCD2D49002E062C /* 菱形2.png */,
+				6A7FDDBC1FCD29A7002E062C /* MBProgressHUD */,
+				6A7FDDC61FCD2A12002E062C /* ViewController */,
+				6A7FDDB21FCD223D002E062C /* LaunchScreen.storyboard */,
+				6A7FDDB31FCD223D002E062C /* Main.storyboard */,
+				91682BEF1FC5AEAD0007070D /* AppDelegate.h */,
+				91682BF01FC5AEAD0007070D /* AppDelegate.m */,
+				91682BF81FC5AEAD0007070D /* Assets.xcassets */,
+				91682BFD1FC5AEAD0007070D /* Info.plist */,
+				91682BFE1FC5AEAD0007070D /* main.m */,
+			);
+			path = BookingAppDemo;
+			sourceTree = "<group>";
+		};
+		91682C071FC5AEAE0007070D /* BookingAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91682C081FC5AEAE0007070D /* BookingAppDemoTests.m */,
+				91682C0A1FC5AEAE0007070D /* Info.plist */,
+			);
+			path = BookingAppDemoTests;
+			sourceTree = "<group>";
+		};
+		91682C121FC5AEAE0007070D /* BookingAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91682C131FC5AEAE0007070D /* BookingAppDemoUITests.m */,
+				91682C151FC5AEAE0007070D /* Info.plist */,
+			);
+			path = BookingAppDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91682BEB1FC5AEAD0007070D /* BookingAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91682C181FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemo" */;
+			buildPhases = (
+				91682BE81FC5AEAD0007070D /* Sources */,
+				91682BE91FC5AEAD0007070D /* Frameworks */,
+				91682BEA1FC5AEAD0007070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingAppDemo;
+			productName = BookingAppDemo;
+			productReference = 91682BEC1FC5AEAD0007070D /* BookingAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91682C031FC5AEAE0007070D /* BookingAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91682C1B1FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemoTests" */;
+			buildPhases = (
+				91682C001FC5AEAE0007070D /* Sources */,
+				91682C011FC5AEAE0007070D /* Frameworks */,
+				91682C021FC5AEAE0007070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91682C061FC5AEAE0007070D /* PBXTargetDependency */,
+			);
+			name = BookingAppDemoTests;
+			productName = BookingAppDemoTests;
+			productReference = 91682C041FC5AEAE0007070D /* BookingAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91682C0E1FC5AEAE0007070D /* BookingAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91682C1E1FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemoUITests" */;
+			buildPhases = (
+				91682C0B1FC5AEAE0007070D /* Sources */,
+				91682C0C1FC5AEAE0007070D /* Frameworks */,
+				91682C0D1FC5AEAE0007070D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91682C111FC5AEAE0007070D /* PBXTargetDependency */,
+			);
+			name = BookingAppDemoUITests;
+			productName = BookingAppDemoUITests;
+			productReference = 91682C0F1FC5AEAE0007070D /* BookingAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91682BE41FC5AEAD0007070D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Group3;
+				TargetAttributes = {
+					91682BEB1FC5AEAD0007070D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					91682C031FC5AEAE0007070D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91682BEB1FC5AEAD0007070D;
+					};
+					91682C0E1FC5AEAE0007070D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91682BEB1FC5AEAD0007070D;
+					};
+				};
+			};
+			buildConfigurationList = 91682BE71FC5AEAD0007070D /* Build configuration list for PBXProject "BookingAppDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91682BE31FC5AEAD0007070D;
+			productRefGroup = 91682BED1FC5AEAD0007070D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91682BEB1FC5AEAD0007070D /* BookingAppDemo */,
+				91682C031FC5AEAE0007070D /* BookingAppDemoTests */,
+				91682C0E1FC5AEAE0007070D /* BookingAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91682BEA1FC5AEAD0007070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7FDE081FCD2D49002E062C /* 加载.png in Resources */,
+				6A7FDE0C1FCD2D49002E062C /* 旅行.png in Resources */,
+				6A7FDE011FCD2D49002E062C /* 222.png in Resources */,
+				6A7FDE101FCD2D49002E062C /* 菱形2.png in Resources */,
+				6A7FDE0D1FCD2D49002E062C /* 更新.png in Resources */,
+				6A7FDE071FCD2D49002E062C /* 关于我们.png in Resources */,
+				6A7FDE021FCD2D49002E062C /* 1111.png in Resources */,
+				6A7FDE041FCD2D49002E062C /* 个人-头像.png in Resources */,
+				6A7FDE0E1FCD2D49002E062C /* 消息.png in Resources */,
+				6A7FDDB51FCD223D002E062C /* Main.storyboard in Resources */,
+				91682BF91FC5AEAD0007070D /* Assets.xcassets in Resources */,
+				6A7FDE061FCD2D49002E062C /* 优惠券.png in Resources */,
+				6A7FDE051FCD2D49002E062C /* 人头.png in Resources */,
+				6A7FDE0B1FCD2D49002E062C /* 意见.png in Resources */,
+				6A7FDE091FCD2D49002E062C /* 右.png in Resources */,
+				6A7FDE0A1FCD2D49002E062C /* 好友.png in Resources */,
+				6A7FDDC21FCD29CE002E062C /* MBProgressHUD.bundle in Resources */,
+				6A7FDE001FCD2D49002E062C /* 3E01D292-11AD-44D7-B6ED-968E0AB09016.png in Resources */,
+				6A7FDE031FCD2D49002E062C /* C8F20491-CA70-4808-AD8E-F8DAF2F25733.png in Resources */,
+				6A7FDDB41FCD223D002E062C /* LaunchScreen.storyboard in Resources */,
+				6A7FDE0F1FCD2D49002E062C /* 线条5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C021FC5AEAE0007070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C0D1FC5AEAE0007070D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91682BE81FC5AEAD0007070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91682BFF1FC5AEAD0007070D /* main.m in Sources */,
+				6A7FDDCC1FCD2A47002E062C /* RegisterViewController.m in Sources */,
+				6A7FDDC41FCD29CE002E062C /* MBProgressHUD+NJ.m in Sources */,
+				91682BF11FC5AEAD0007070D /* AppDelegate.m in Sources */,
+				6A7FDDC31FCD29CE002E062C /* MBProgressHUD.m in Sources */,
+				6A7FDDCB1FCD2A47002E062C /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C001FC5AEAE0007070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91682C091FC5AEAE0007070D /* BookingAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91682C0B1FC5AEAE0007070D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91682C141FC5AEAE0007070D /* BookingAppDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91682C061FC5AEAE0007070D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91682BEB1FC5AEAD0007070D /* BookingAppDemo */;
+			targetProxy = 91682C051FC5AEAE0007070D /* PBXContainerItemProxy */;
+		};
+		91682C111FC5AEAE0007070D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91682BEB1FC5AEAD0007070D /* BookingAppDemo */;
+			targetProxy = 91682C101FC5AEAE0007070D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91682C161FC5AEAE0007070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91682C171FC5AEAE0007070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91682C191FC5AEAE0007070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91682C1A1FC5AEAE0007070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91682C1C1FC5AEAE0007070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingAppDemo.app/BookingAppDemo";
+			};
+			name = Debug;
+		};
+		91682C1D1FC5AEAE0007070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingAppDemo.app/BookingAppDemo";
+			};
+			name = Release;
+		};
+		91682C1F1FC5AEAE0007070D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingAppDemo;
+			};
+			name = Debug;
+		};
+		91682C201FC5AEAE0007070D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.BookingAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91682BE71FC5AEAD0007070D /* Build configuration list for PBXProject "BookingAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91682C161FC5AEAE0007070D /* Debug */,
+				91682C171FC5AEAE0007070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91682C181FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91682C191FC5AEAE0007070D /* Debug */,
+				91682C1A1FC5AEAE0007070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91682C1B1FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91682C1C1FC5AEAE0007070D /* Debug */,
+				91682C1D1FC5AEAE0007070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91682C1E1FC5AEAE0007070D /* Build configuration list for PBXNativeTarget "BookingAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91682C1F1FC5AEAE0007070D /* Debug */,
+				91682C201FC5AEAE0007070D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91682BE41FC5AEAD0007070D /* Project object */;
+}

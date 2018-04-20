@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode7
+xcode_project: NinaPagerView.xcodeproj
+xcode_scheme: NinaPagerView
+
+script:
+- xctool -project NinaPagerView.xcodeproj -scheme NinaPagerView -configuration Debug CODE_SIGN_IDENTITY="" -sdk iphonesimulator test
